@@ -17,15 +17,21 @@ public class cwh_26_arrays {
               marks[2]=100;
               marks[3]=50;
               marks[4]=80;
+        //  1> Printing Array in naive way
+        System.out.println("Printing Array in naive way");
         System.out.println(marks[0]);
         System.out.println(marks[1]);
         System.out.println(marks[2]);
         System.out.println(marks[3]);
         System.out.println(marks[4]);
         System.out.println("Length Of Marks Array is "+marks.length);
+        //  2> Printing array using for loop
+        System.out.println("Printing array using for loop");
+        for(int i=0;i< marks.length;i++) System.out.println(marks[i]);
 
+        //  3> Printing array using for each loop
+        System.out.println("Printing array using for each loop");
         int []mark={99,56,78,97,85,89,78};
-       // for(int i=0;i< mark.length;i++) System.out.println(mark[i]);
-      for (int j: mark ) System.out.println(j);
+      for (int j: mark ) System.out.println(j); //For each loop
     }
 }
